@@ -1,0 +1,51 @@
+/* Основные стили */
+
+/* Слайдер */
+.slick-slider {
+  min-width: 0;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+.trip__slider .slick-list {
+  height: 100%;
+}
+
+.program__slider .slick-list {
+  height: 100%;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.trip__slider .slick-track {
+  height: 100%;
+}
+
+.trip__slider .slick-slide.slick-center {
+  transform: scale(1.08, 1.1);
+}
+
+.slick-slide.slick-center .trip__item--inner {
+  opacity: 1;
+  visibility: visible;
+}
+
+.program__slider .slick-track {
+  height: 100%;
+}
+
+.program__slider .slick-slide.slick-center {
+  transform: scale(1.08, 1.1);
+}
+
+.slick-slide.slick-center .program__item--inner {
+  opacity: 1;
+  visibility: visible;
+}

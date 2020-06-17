@@ -4,9 +4,39 @@
   margin: 0
   border: 0
   outline: none
+html
+  font-size: 10px
 body
-  font-family: 'Roboto', sans-serif  
+  font-family: 'Muller', sans-serif  
+  font-size: 1rem
 img
   max-width: 100%
 h1, h2, h3, h4, h5, h6
   margin: 0
+button
+  cursor: pointer
+.section
+  padding: 6rem 0
+.button
+  &--outline
+    color: $white
+    background-color: transparent
+    border: 2px solid $white
+.text-big
+  text-transform: uppercase
+.title
+  color: $black
+  font-size: 3.6rem
+  text-align: center
+  font-weight: 500
+  font-style: normal  
+.title::after
+  display: block
+  content: ''
+  width: 119px
+  height: 6px
+  background: url('../img/title-figure.svg') no-repeat center
+  margin: auto
+  margin-top: 1.7rem
+    
+   

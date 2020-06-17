@@ -1,0 +1,72 @@
+.center .container
+  position: relative
+.center
+  &__bg
+    position: absolute
+    top: -30px
+    left: -30px
+  &__wrap
+    display: flex
+    justify-content: space-between
+  &__images
+    position: relative
+    max-width: 45.9rem
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-right: 15px
+  &__img
+    margin-bottom: 21px
+    & img
+      display: block
+      width: 139px
+      height: 139px
+  &__text
+    position: relative
+    max-width: 430px
+  &__title
+    color: $black
+    font-size: 3rem
+    margin-bottom: 9px
+    +medium
+  &__subtitle
+    display: block
+    color: #4b4b4b
+    font-size: 1.4rem
+    margin-bottom: 3.5rem
+    +light
+  &__description
+    color: $black
+    font-size: 1.2rem
+    margin-bottom: 5.8rem
+    +light
+  &__list
+    color: #454545
+    font-size: 1.2rem
+    display: flex
+    justify-content: space-between
+    &--first
+      max-width: 222px
+      
+    &--second
+      max-width: 200px
+
+.center__list ul   
+  list-style: none
+  margin-left: 15px
+.center__list ul li
+  position: relative
+  padding-left: 15px   
+  margin-bottom: 14px   
+.center__list ul li::before
+  position: absolute
+  left: -15px
+  top: 1px
+  content: ''
+  width: 13px
+  height: 13px
+  background: url(../img/center/li-img.png) no-repeat center center
+
+    
+  
+ 
